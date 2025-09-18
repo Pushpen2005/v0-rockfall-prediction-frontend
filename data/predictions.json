@@ -1,0 +1,53 @@
+{
+  "predictions": [
+    {
+      "id": "PRED-001",
+      "zone": "North Wall",
+      "riskLevel": "high",
+      "probability": 0.85,
+      "timeframe": "24_hours",
+      "confidence": 0.92,
+      "factors": [
+        {
+          "name": "Recent Rainfall",
+          "impact": 0.35,
+          "value": "82mm in 48h"
+        },
+        {
+          "name": "Ground Displacement",
+          "impact": 0.28,
+          "value": "2.3mm increase"
+        },
+        {
+          "name": "Vibration Patterns",
+          "impact": 0.22,
+          "value": "Anomalous frequency"
+        }
+      ],
+      "historicalAccuracy": 0.89,
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "PRED-002",
+      "zone": "East Slope",
+      "riskLevel": "medium",
+      "probability": 0.45,
+      "timeframe": "72_hours",
+      "confidence": 0.78,
+      "factors": [
+        {
+          "name": "Pore Pressure",
+          "impact": 0.42,
+          "value": "145.2 kPa"
+        },
+        {
+          "name": "Slope Angle",
+          "impact": 0.31,
+          "value": "38 degrees"
+        }
+      ],
+      "historicalAccuracy": 0.82,
+      "lastUpdated": "2024-01-15T10:25:00Z"
+    }
+  ]
+}

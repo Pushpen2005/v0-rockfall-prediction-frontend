@@ -1,0 +1,61 @@
+{
+  "sensors": [
+    {
+      "id": "SENS-001",
+      "name": "North Wall Sensor A1",
+      "type": "displacement",
+      "location": {
+        "zone": "North Wall",
+        "coordinates": { "lat": -23.5505, "lng": 46.6333 },
+        "elevation": 1250
+      },
+      "status": "online",
+      "battery": 87,
+      "lastSync": "2024-01-15T10:30:00Z",
+      "readings": {
+        "displacement": 2.3,
+        "vibration": 0.8,
+        "temperature": 24.5
+      },
+      "alerts": []
+    },
+    {
+      "id": "SENS-002",
+      "name": "East Slope Monitor B2",
+      "type": "pore_pressure",
+      "location": {
+        "zone": "East Slope",
+        "coordinates": { "lat": -23.5515, "lng": 46.6343 },
+        "elevation": 1180
+      },
+      "status": "warning",
+      "battery": 23,
+      "lastSync": "2024-01-15T10:25:00Z",
+      "readings": {
+        "pore_pressure": 145.2,
+        "moisture": 68.3,
+        "temperature": 22.1
+      },
+      "alerts": ["low_battery"]
+    },
+    {
+      "id": "SENS-003",
+      "name": "South Bench Vibration C1",
+      "type": "vibration",
+      "location": {
+        "zone": "South Bench",
+        "coordinates": { "lat": -23.5525, "lng": 46.6323 },
+        "elevation": 1320
+      },
+      "status": "offline",
+      "battery": 0,
+      "lastSync": "2024-01-14T16:45:00Z",
+      "readings": {
+        "vibration": 0,
+        "acceleration": 0,
+        "frequency": 0
+      },
+      "alerts": ["offline", "maintenance_required"]
+    }
+  ]
+}

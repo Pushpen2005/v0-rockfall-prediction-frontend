@@ -1,0 +1,49 @@
+{
+  "alerts": [
+    {
+      "id": "ALERT-001",
+      "severity": "high",
+      "type": "rockfall_risk",
+      "title": "High Rockfall Risk Detected",
+      "description": "AI model predicts 85% probability of rockfall in North Wall sector within 24 hours",
+      "location": "North Wall - Zone A",
+      "timestamp": "2024-01-15T09:15:00Z",
+      "status": "active",
+      "sensorId": "SENS-001",
+      "confidence": 0.85,
+      "recommendedActions": [
+        "Evacuate personnel from North Wall area",
+        "Deploy additional monitoring equipment",
+        "Conduct visual inspection"
+      ]
+    },
+    {
+      "id": "ALERT-002",
+      "severity": "medium",
+      "type": "sensor_maintenance",
+      "title": "Sensor Battery Low",
+      "description": "East Slope Monitor B2 battery level at 23%",
+      "location": "East Slope - Zone B",
+      "timestamp": "2024-01-15T08:30:00Z",
+      "status": "acknowledged",
+      "sensorId": "SENS-002",
+      "recommendedActions": ["Schedule battery replacement", "Check solar panel connection"]
+    },
+    {
+      "id": "ALERT-003",
+      "severity": "critical",
+      "type": "sensor_offline",
+      "title": "Sensor Communication Lost",
+      "description": "South Bench Vibration C1 has been offline for 18 hours",
+      "location": "South Bench - Zone C",
+      "timestamp": "2024-01-14T16:45:00Z",
+      "status": "active",
+      "sensorId": "SENS-003",
+      "recommendedActions": [
+        "Dispatch maintenance team",
+        "Check communication equipment",
+        "Deploy backup sensor if available"
+      ]
+    }
+  ]
+}
